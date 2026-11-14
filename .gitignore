@@ -1,0 +1,15 @@
+# Segredos: NUNCA entram no repositório
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+vapid*.txt
+
+# Dependências e lixo
+node_modules/
+npm-debug.log*
+.DS_Store
+*.log
